@@ -14,7 +14,7 @@ programa {
     escreva("\n")
     escreva("Elementos nos indices ímpares: ")
     para(i = 0; i < tam; i++){
-      se(i % 2 != 0){
+      se(i % 2 != 1){
         escreva(vet[i])
       }
     }
